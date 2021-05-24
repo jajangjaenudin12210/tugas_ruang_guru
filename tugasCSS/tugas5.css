@@ -1,0 +1,40 @@
+.div_menu{
+  background-color: black;
+}
+.menu{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+div.slider-div{
+  text-align: center;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+/* img.slider{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+header{
+  margin-bottom: 10px;
+  /* text-shadow: 2px 2px 2px yellow; */
+}
+p {
+  line-height: 130%;
+  margin-bottom: 10px;
+  /* text-indent: 30px; */
+}
+footer{
+  background-color: black;
+}
+.footer{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+.footer-alamat{
+  color: white;
+  text-align: center;
+}

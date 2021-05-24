@@ -1,0 +1,12 @@
+
+.register{
+  font-size:1.5em;
+}
+input{
+  font-size: 1em;
+}
+
+[type="button"]{
+  color: #b88c4b;
+  font-size: 2em !important;
+}

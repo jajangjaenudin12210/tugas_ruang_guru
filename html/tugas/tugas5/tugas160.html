@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      form{
+        color: blue;
+      }
+      input{
+        background-color: yellow;
+      }
+      button{
+        border-color: orange;
+        background-color: red;
+      }
+    </style>
+    <title>Belajar HTML - NIOMIC</title>
+  </head>
+  <body>
+    <form>
+        <input type="submit"  value="KIRIM I">
+        <input type="button"  value="BUTTON I">
+        <input type="reset"  value="reset">
+    </form>
+    <form>
+      <button type="button" name="button">BUTTON 2</button>
+      <button type="submit" name="submit">KIRIM 2</button>
+      <button type="reset" name="reset">RESET 2</button>
+    </form>
+    <form>
+      <p>Email : <input type="email" name="email" autocomplete="on"></p>
+      <input type="submit" name="" value="submit">
+    </form>
+    <form>
+      <p>Masukan website kami : <input type="url"/></p>
+      <input type="submit" name="" value="SUBMIT">
+    </form>
+    <form>
+      <p>Apa yang kamu cari : <input type="search"></p>
+    </form>
+    <form>
+      <p>Nomor Rumah :<input type="number" min="1" max="15" step="3"/></p>
+    </form>
+    <form>
+      <p>
+        Nomor Rumah <input type="range" min="1" max="15" step="3"/>
+      </p>
+    </form>
+    <form>
+      <p>
+      Nomor Wathsapp :<input type="tel"/>
+      </p>
+    </form>
+    <hr/>
+    <form>
+      <input type="file" accept="application/pdf"/>
+    </form>
+    <hr/>
+    <form>
+      <p>Ayam Bakar :<input type="checkbox" checked/></p>
+      <p>Ayam Geprek :<input type="checkbox"/></p>
+      <p>Nasi Goreng :<input type="checkbox"/></p>
+      <hr />
+      <p>Es Jeruk :<input type="radio"/></p>
+      <p>Es Teh :<input type="Radio" /></p>
+      <p>Es kopi<input type="radio" checked/></p>
+    </form>
+    <hr />
+    <p>Element Label</p>
+    <form>
+      <label>Ayam Bakar :<input type="checkbox" checked/></label>
+      <label>Ayam Geprek :<input type="checkbox"/></label>
+      <label>Nasi Goreng :<input type="checkbox"/></label>
+      <hr />
+      <label>Es Jeruk :<input type="radio"/></label>
+      <label>Es Teh :<input type="Radio" /></label>
+      <label>Es kopi<input type="radio" checked/></label>
+    </form>
+    <hr/>
+    <form>
+      <p> Makanan :
+      <select name="Pesanan" multiple>
+        <optgroup label="Makanan">
+          <option value="soto-kudus">Soto Kudus</option>
+          <option value="tude-bakar">Tude Bakar</option>
+          <option value="tempoyak-ikan">Tempoyak Ikan</option>
+          <option value="kerak-telur">Kerak Telur</option>
+          <option value="nasi-padang">Nasi Padang</option>
+        </optgroup>
+        <optgroup label="Minuman">
+          <option value="es-jeruk">Es Jeruk</option>
+          <option value="es-teh">Es Teh</option>
+          <option value="es-campur">Es Campur</option>
+        </optgroup>
+      </select>
+    </p>
+    </form>
+    <hr/>
+      <form>
+        <datalist id="listmakanan">
+          <option value="Ayam Goreng">Ayam Goreng</option>
+          <option value="Ayam Bapak">Ayam Bapak</option>
+          <option value="Sate Padang">Sate Padang</option>
+          <option value="Sate Madura">Sate Madura</option>
+          <option value="Nasi Padang"></option>
+        </datalist>
+      </form>
+      <form>
+        <input type="text" name="" list="listmakanan">
+      </form>
+  <hr/>
+    <progress value="70" max="100"></progress><br/>
+    <progress value="20" max="100"></progress><br/>
+    <progress value="100" max="1000"></progress><br/>
+
+
+  </body>
+</html>

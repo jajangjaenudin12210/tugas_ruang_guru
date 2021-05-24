@@ -1,0 +1,10 @@
+.content{
+  height: 1000px;
+  column-width: 300px;
+  column-fill: balance;
+  column-gap: 50px;/*memberikan jarak antar kolom */
+  column-rule: 5px double black; /*memberikan garis antar kolom*/
+}
+.span{
+  column-span: all; /*mengeluarkan kolom*/
+}

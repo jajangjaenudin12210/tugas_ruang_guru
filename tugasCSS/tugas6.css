@@ -1,0 +1,24 @@
+/* body{
+  background: url("bg_grid.png")
+} */
+p{
+  width: 300px;
+  height: 100px;
+  background-color: #10e8d2;
+}
+.satu{
+  overflow: scroll;
+  /* padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 25px; */
+  border: 10px dotted red;
+}
+.dua{
+  overflow: scroll;
+  border : 6px solid green;
+}
+.tiga{
+  overflow: auto;
+  border: 12px dashed blue;
+}

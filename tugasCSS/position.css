@@ -1,0 +1,30 @@
+.container {
+ width: 700px;
+ height: 500px;
+ background-color: rgb(231, 232, 226);
+ margin: 0 auto;
+}
+.satu {
+ background-color: #4286f4;
+ left: 50px;
+ top: 50px;
+ position: fixed;
+ /* position: absolute;
+ position: relative;
+ position: static; */
+}
+.dua {
+ background-color: #26c115;
+}
+.tiga {
+ background-color: #c11534;
+}
+
+.satu,
+.dua,
+.tiga {
+ width: 150px;
+ height: 150px;
+ font-size: 25px;
+ text-align: center;
+}

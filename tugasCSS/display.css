@@ -1,0 +1,7 @@
+.paragraf{
+  /* display: inline; */
+  display: block;
+}
+p{
+  color:blue;
+}
